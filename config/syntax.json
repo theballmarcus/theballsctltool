@@ -1,0 +1,36 @@
+{
+    "syntaxMsg" : "[website] || For help write -h or --help",
+    "cmdNotFoundMsg" : "Command wasn't found. Try -h or --help for help.",
+    "invalidSyntaxMsg" : "Invalid syntax.",
+    "programName" : "./theballsctftool.py",
+    "urlNotValidMsg" : "Url is not vaid",
+    "website" : {
+        "website" : {
+            "command" : "website",
+            "syntax" : "website [args, fx --comments] 'url'",
+            "description" : "This will"
+        },
+        "comments" : {
+            "command" : "--comments",
+            "alias" : "-c",
+            "description" : "Using this parameter, theballsctftool will only output the comments of the website."
+        },
+        "links" : {
+            "command" : "--links",
+            "alias" : "-l",
+            "description" : "Using this parameter, theballsctftool will only output the links of the website."
+        },
+        "test" : {
+            "command" : "--test",
+            "description" : "This command does nothing. Its just for testing purposes."
+        }
+    },
+    "general" : {
+        "help" : {
+            "command" : "--help",
+            "alias" : "-h",
+            "syntax" : "./theballsctftool.py --help [optional, fx website to narrow down the content]",
+            "description" : "Use this command when you need help or information about the program."
+        }
+    }
+}

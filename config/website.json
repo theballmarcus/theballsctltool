@@ -1,0 +1,18 @@
+{
+    "tryUrls" : ["", "http://", "http://www.", "https://", "https://www."],
+    "interestingTags" : {
+        "script" : {
+            "attributes" : 1,
+            "content" : [
+                "src"
+            ]
+        },
+        "a" : {
+            "attributes" : 1,
+            "content" : [
+                "href",
+                "onclick"
+            ]
+        }
+    }
+}
