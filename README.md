@@ -1,1 +1,7 @@
-# # # THEBALLS CTF TOOL
+# --THEBALLS CTF TOOL--
+
+* * * * *
+
+## WIP CTF TOOL
+
+## FEEL FREE TO DROP ME A PR!
